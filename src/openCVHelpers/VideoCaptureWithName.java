@@ -1,4 +1,4 @@
-package flyWalkCV;
+package openCVHelpers;
 
 import org.opencv.videoio.VideoCapture;
 

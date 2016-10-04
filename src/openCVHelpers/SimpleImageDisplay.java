@@ -1,4 +1,4 @@
-package flyWalkCV;
+package openCVHelpers;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;

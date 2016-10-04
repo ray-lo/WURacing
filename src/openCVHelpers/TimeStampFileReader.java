@@ -1,4 +1,4 @@
-package flyWalkCV;
+package openCVHelpers;
 
 import java.io.File;
 import java.io.FileInputStream;

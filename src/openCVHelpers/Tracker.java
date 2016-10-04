@@ -1,4 +1,4 @@
-package flyWalkCV;
+package openCVHelpers;
 import java.awt.FlowLayout;
 import java.awt.Frame;
 import java.awt.Image;

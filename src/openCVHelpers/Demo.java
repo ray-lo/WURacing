@@ -1,4 +1,4 @@
-package odorAutomatorController;
+package openCVHelpers;
 
 import java.awt.Color;
 import java.awt.Component;

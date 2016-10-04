@@ -1,4 +1,4 @@
-package flyWalkCV;
+package openCVHelpers;
 
 import org.opencv.core.Mat;
 import org.opencv.core.Point;
