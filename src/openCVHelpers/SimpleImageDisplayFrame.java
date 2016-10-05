@@ -10,16 +10,15 @@ import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
 
 
-public class SimpleImageDisplay extends JFrame {
+public class SimpleImageDisplayFrame extends JFrame {
 	private JLabel l;
 	private FrameAccessHelper helper;
-	public SimpleImageDisplay(){
+	public SimpleImageDisplayFrame(){
 		l = new JLabel();
 		helper = new FrameAccessHelper();
 		this.add(l);
 		this.setVisible(true);
 
-		
 		this.setBounds(100, 100, 450, 300);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}

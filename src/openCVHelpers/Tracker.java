@@ -28,7 +28,7 @@ public class Tracker {
         Mat m  = Mat.eye(3, 3, CvType.CV_8UC1);
         System.out.println("m = ");
         System.out.println(m.dump());
-        String path = "/Users/ray/PCTestVid.mp4";
+        String path = "/Users/ray/Downloads/Wheel Marks Clip 1.mp4";
         VideoCapture cap = new VideoCapture(path);
         int width = (int)cap.get(Videoio.CV_CAP_PROP_FRAME_WIDTH);
         int height = (int)cap.get(Videoio.CV_CAP_PROP_FRAME_HEIGHT);
@@ -45,7 +45,7 @@ public class Tracker {
        System.out.println("Frame Count" + frameCount);
        System.out.println(width);
        System.out.println(height);
-       imgDis.displayImage(imgDis.returnNthImage(2000, cap));
+       imgDis.displayImage(imgDis.returnNthImage(2880, cap));
        System.out.println(mat.size());
         
       //  OpenCVFrameGrabber grabber = new OpenCVFrameGrabber("demo.avi");
